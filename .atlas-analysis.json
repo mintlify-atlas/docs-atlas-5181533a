@@ -1,0 +1,102 @@
+{
+  "projectType": "saas",
+  "projectName": "Canchas Deportivas",
+  "projectDescription": "A sports facility management system for booking and managing sports field reservations",
+  "theme": "palm",
+  "primaryColor": "#22c55e",
+  "lightColor": "#86efac",
+  "darkColor": "#15803d",
+  "navigation": {
+    "tabs": [
+      {
+        "tab": "Documentation",
+        "groups": [
+          {
+            "group": "Overview",
+            "pages": [
+              "introduction",
+              "quickstart"
+            ]
+          },
+          {
+            "group": "Core Features",
+            "pages": [
+              "features/reservations",
+              "features/sports-fields",
+              "features/client-management",
+              "features/user-management"
+            ]
+          },
+          {
+            "group": "Architecture",
+            "pages": [
+              "architecture/overview",
+              "architecture/data-layer",
+              "architecture/business-layer",
+              "architecture/presentation-layer"
+            ]
+          },
+          {
+            "group": "Setup & Deployment",
+            "pages": [
+              "setup/installation",
+              "setup/database-configuration",
+              "setup/deployment"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API Reference",
+        "groups": [
+          {
+            "group": "Controllers",
+            "pages": [
+              "api/reservas-controller",
+              "api/canchas-controller",
+              "api/clientes-controller",
+              "api/home-controller"
+            ]
+          },
+          {
+            "group": "Entities",
+            "pages": [
+              "api/entities/reservas",
+              "api/entities/canchas",
+              "api/entities/clientes",
+              "api/entities/usuarios"
+            ]
+          },
+          {
+            "group": "Business Logic",
+            "pages": [
+              "api/business/reservas",
+              "api/business/canchas",
+              "api/business/clientes",
+              "api/business/usuarios"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "keyFeatures": [
+    "Sports field booking and reservation management",
+    "Client registration and management",
+    "Real-time field availability tracking",
+    "Reservation search and filtering",
+    "Three-tier MVC architecture",
+    "SQL Server database integration"
+  ],
+  "publicApiSurface": [
+    "ReservasController - ListarReservas, InsertarReservas, Actualizar, Eliminar, BuscarReservaNombre",
+    "CanchasController - Sports field CRUD operations",
+    "ClientesController - Client management operations",
+    "CE_Reservas - Reservation entity model",
+    "CE_Canchas - Sports field entity model",
+    "CE_Clientes - Client entity model",
+    "CE_usuarios - User entity model",
+    "CN_Reservas - Reservation business logic",
+    "CD_Reservas - Reservation data access layer"
+  ]
+}
